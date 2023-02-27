@@ -7,6 +7,7 @@ export const initialState = [
     {
         id: 2,
         text: 'Learn Redux',
-        completed: false
+        completed: false,
+        color: 'red'
     },
 ]

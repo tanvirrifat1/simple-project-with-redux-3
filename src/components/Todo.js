@@ -37,7 +37,7 @@ export default function Todo({ todo }) {
                     </svg>}
             </div>
 
-            <div className="select-none flex-1 line-through">
+            <div className={`select-none flex-1 ${completed && 'line-through'}`}>
                 {text}
             </div>
 
